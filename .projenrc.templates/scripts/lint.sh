@@ -2,7 +2,7 @@
 
 # Run Flake8
 echo -e "\nLinting..."
-python3.9 -m flake8 src/
+poetry run flake8 src/
 echo -e "Done."
 
 # Run MyPy
